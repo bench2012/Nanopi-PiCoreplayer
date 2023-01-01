@@ -1,0 +1,13 @@
+verbosity=7
+bootlogo=false
+console=both
+disp_mode=320x240
+overlay_prefix=sun50i-h5
+overlays= spdif-out usbhost1 usbhost2 
+rootdev=UUID=8f72188e-28db-4567-8952-1d82a5ed6ac1
+rootfstype=ext4
+usbstoragequirks=0x2537:0x1066:u,0x2537:0x1068:u
+extraargs=net.ifnames=0
+docker_optimizations=off
+user_overlays=sun50i-h5-i2s0-out lcd_st7789_fa gpio-keypad_fa
+
